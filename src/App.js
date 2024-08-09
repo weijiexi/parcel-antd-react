@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Button as AntButton } from 'antd';
+
 import "../styles/App.less";
 
 export function App() {
@@ -12,7 +14,7 @@ export function App() {
                     components.
                 </p>
 
-                {/*<AntButton type="primary">Primary Button</AntButton>*/}
+                <AntButton type="primary">Primary Button</AntButton>
 
             </div>
         </div>
